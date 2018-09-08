@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Skeleton application demoing Heroku and Flask integration.">
+    <meta name="author" content="@gotoariel">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+    <title>C.A. English DI Plot Stock App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          <h2>Input Plot Options.</h2>
+          <h4>Dates must be before 2018-03-27</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          <form id='input' method='post' action='graph'>	
+          <p>Ticker symbol: <input type='text' name='ticker' placeholder='GOOG' /></p>
+          <p>Start Year: <input type='text' name='year_start' placeholder='2017' /></p>
+          <p>Start Month: <input type='text' name='month_start' placeholder='07' /></p>
+          <p>End Year: <input type='text' name='year_end' placeholder='2017' /></p>
+          <p>End Month: <input type='text' name='month_end' placeholder='07' /></p>
+          <p>
+          <p><input type="submit" value="Submit"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

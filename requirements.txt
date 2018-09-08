@@ -1,0 +1,9 @@
+gunicorn
+requests
+pandas
+bokeh==0.13.0
+dill
+flask
+jinja2
+pip
+simplejson
